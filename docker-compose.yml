@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  simplecalculator:
+    image: simplecalculator
+    build:
+      context: .
+      dockerfile: ./Dockerfile
